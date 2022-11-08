@@ -1,0 +1,16 @@
+{
+  "name": "ewa-forman-task",
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "jest": "^29.3.0"
+  },
+  "scripts": {
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "type": "module"
+}
